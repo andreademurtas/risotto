@@ -1,7 +1,4 @@
 {{ define "main" }}
-  <h1>All Posts</h1>
-  {{ range .Data.Pages }}
-    <h2>{{ .Title }}</h2>
-    <p>{{ .Content }}</p>
-  {{ end }}
+    {{ .Content }}
 {{ end }}
+
